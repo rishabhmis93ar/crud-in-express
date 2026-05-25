@@ -1,5 +1,13 @@
 import express from "express";
-import { addContact, addContactPage, deleteContact, getContacts, getSingleContact, updateContact, updateContactPage } from "../controller/contacts.controller.js";
+import { 
+    addContact, 
+    addContactPage, 
+    deleteContact, 
+    getContacts, 
+    getSingleContact, 
+    updateContact, 
+    updateContactPage } 
+    from "../controller/contacts.controller.js";
 const router = express.Router();
 
 // Routes
